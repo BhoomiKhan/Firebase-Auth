@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "788099135314",
+    "firebase_url": "https://fir-authentication-bf8f0.firebaseio.com",
+    "project_id": "fir-authentication-bf8f0",
+    "storage_bucket": "fir-authentication-bf8f0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:788099135314:android:1f262ba111a1f89f",
+        "android_client_info": {
+          "package_name": "com.pawras.firebaseauthenticaiton"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "788099135314-fjd1s9tsjod43p53brert2b2v3p4uoku.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBj70EfDSWKT2na9B_F5bu_i1Ii7sUzBX4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

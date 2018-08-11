@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_centerHorizontal="true"
+    android:layout_centerVertical="true"
+    tools:context="com.pawras.firebaseauthenticaiton.MainActivity">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/signup"
+        android:onClick="signUp"
+        android:layout_centerHorizontal="true"
+        android:text="Sign Up with firebase" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/signin"
+        android:onClick="signin"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/signup"
+        android:layout_marginTop="20dp"
+        android:text="Sign In with firebase"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/google_signin"
+        android:onClick="google_signin"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/signin"
+        android:text=" Google Sign In using firebase "/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CRUID"
+        android:id="@+id/cruid"
+        android:onClick="cruid"
+        android:layout_below="@+id/google_signin"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"/>
+</RelativeLayout>
